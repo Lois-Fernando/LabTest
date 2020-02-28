@@ -1,0 +1,73 @@
+<rss version="2.0">
+<channel>
+<title>My new wiki</title>
+<link>http://_:80/lionwiki-3.2.11/index.php</link>
+<description>RSS feed from My new wiki</description>
+<language>en-US</language>
+
+	<item>
+	  <title>Juvenia's information</title>
+	  <pubDate>Fri, 28 Feb 2020 14:13:12 +0700</pubDate>
+	  <link>http://_:80/lionwiki-3.2.11/index.php?page=Juvenia%27s+information</link>
+	  <description><pre id="diff"><ins>Name: Juvenia
+
+Faculty : Informatics
+
+NIM : 01082180034</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>Lois's information</title>
+	  <pubDate>Fri, 28 Feb 2020 14:12:16 +0700</pubDate>
+	  <link>http://_:80/lionwiki-3.2.11/index.php?page=Lois%27s+information</link>
+	  <description><pre id="diff"><ins>Name: Lois Fernando
+Faculty : Informatics
+NIM : 01082180027</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>Main page</title>
+	  <pubDate>Fri, 28 Feb 2020 14:11:38 +0700</pubDate>
+	  <link>http://_:80/lionwiki-3.2.11/index.php?page=Main+page</link>
+	  <description><pre id="diff">Hello, this is the main page!
+There are two pages: <del>{Lois's</del><ins>[Lois's</ins> information] and [Juvenia's information]. Feel free to check each of them.
+</pre></description>
+	</item>
+
+	<item>
+	  <title>Main page</title>
+	  <pubDate>Fri, 28 Feb 2020 14:11:21 +0700</pubDate>
+	  <link>http://_:80/lionwiki-3.2.11/index.php?page=Main+page</link>
+	  <description><pre id="diff"><ins>Hello, this is the main page!
+There are two pages: {Lois's information] and [Juvenia's information]. Feel free to check each of them.</ins>
+</pre></description>
+	</item>
+
+	<item>
+	  <title>Lois'information</title>
+	  <pubDate>Fri, 28 Feb 2020 14:09:18 +0700</pubDate>
+	  <link>http://_:80/lionwiki-3.2.11/index.php?page=Lois%27information</link>
+	  <description><pre id="diff"><del>ama</del><ins>Nama</ins> Lengkap: Lois Fernando
+Jurusan     : Informatika
+NIM         : 01082180027
+</pre></description>
+	</item>
+
+	<item>
+	  <title>Lois'information</title>
+	  <pubDate>Fri, 28 Feb 2020 14:09:04 +0700</pubDate>
+	  <link>http://_:80/lionwiki-3.2.11/index.php?page=Lois%27information</link>
+	  <description><pre id="diff"><ins>ama Lengkap: Lois Fernando
+Jurusan     : Informatika
+NIM         : 01082180027</ins>
+</pre></description>
+	</item>
+
+
+
+
+
+</channel>
+</rss>
