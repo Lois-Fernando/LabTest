@@ -12,3 +12,17 @@
 - sudo mysql_secure_installation
 - sudo mariadb
 - exit;
+
+
+- sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/midtest
+	remove the test
+	add index.php before index.html
+	uncomment location ~ \.php$ and keep the PHP-CGI line commented change the
+	FPM version from 7.0 to 7.2
+- sudo nginx -t
+- sudo ln -s /etc/nginx/sites-available/midtest /etc/nginx/sites-enabled/
+- sudo unlink /etc/nginx/sites-enabled/default
+- sudo systemctl reload nginx
+- sudo nano /var/www/html/info.php
+- access localhost/info.php
+
