@@ -6,7 +6,10 @@
 - sudo apt install php7.2-fpm
 - sudo systemctl status nginx
 - sudo systemctl status mysql
-- sudo systemctl status mariadb-server
+- sudo systemctl enable nginx
+- sudo systemctl enable mysql
+- sudo systemctl start mysql
+- sudo systemctl start php-fpm7.2
 - sudo install curl
 - curl -4 icanhazip.com
 - sudo mysql_secure_installation
@@ -25,4 +28,14 @@
 - sudo systemctl reload nginx
 - sudo nano /var/www/html/info.php
 - access localhost/info.php
+
+
+- wget http://lionwiki.0o.cz/download/3.2.11/lionwiki-3.2.11.zip
+- unzip lionwiki-3.2.11.zip
+- cd lionwiki-3.2.11/
+- sudo mv /home/erikaheirich/lionwiki-3.2.11 /var/www/html
+- access (localhost/lionwiki-3.2.11)
+- create wiki
+
+
 
